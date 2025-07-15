@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --mobile_screen : 375px;
+    --desktop_screen : 1440px;
+    --red: hsl(4, 100%, 67%);
+    --blue_800: hsl(234, 29%, 20%);
+    --blue_700: hsl(235, 18%, 26%);
+    --grey: hsl(0, 0%,58%);
+    --white: hsl(0, 0%, 100%);
+    --font_size_paragraph: .8rem;
+    --roboto: 'Roboto', sans-serif;
+    --weights_400: 400;
+    --weights_700: 700;
+}
