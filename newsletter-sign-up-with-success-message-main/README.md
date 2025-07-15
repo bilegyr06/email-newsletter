@@ -11,9 +11,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -37,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/bilegyr06/email-newsletter/tree/main/newsletter-sign-up-with-success-message-main)
+- Live Site URL: [vercel](https://email-newsletter-lovat.vercel.app/)
 
 ## My process
 
