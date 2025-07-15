@@ -2,7 +2,6 @@
 console.log('Script loaded succesfully');
 const form = document.getElementById('form')
 const validate_text = document.body.querySelector('.js_valid_text');
-const submit_button = document.body.querySelector('.js_submit_btn');
 const email_pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const main_body = document.querySelector('.main_body');
 const success_msg = document.querySelector('.js_success_msg');
