@@ -89,13 +89,12 @@ form{
 input{
     margin-bottom: .8rem;
     padding: .8rem ;
-    border: 1px solid var(--grey);
+    border: 0.0625rem solid var(--grey);
     border-radius: .4rem;
 
 }
 input:focus{
-    /* border: 1px solid rgb(81, 81, 81); */
-    outline: 0.5px solid black;
+    outline: 0.03125rem solid black;
     border: none;
 }
 
@@ -108,7 +107,7 @@ button{
     margin-bottom: .8rem;
     padding: .8rem;
     background: var(--blue_800);
-    border: 0px solid var(--grey);
+    border: 0rem solid var(--grey);
     border-radius: .4rem;
     color: var(--white);
 }
@@ -142,27 +141,27 @@ button:active {
 }
 
 /* For tabs */
-@media (min-width: 753px){
+@media (min-width: 47rem){
     body{
         padding: 1rem 0rem;
         background-color: var(--blue_700);
-        border: 0px solid transparent;
-        border-radius: 20px;
+        border: 0rem solid transparent;
+        border-radius: 1.25rem;
     }
     .main_body{
         min-width: 20rem;
         max-width: 30rem;
         background-color: var(--white);
-        border: 1px solid transparent;
-        border-radius: 20px;
-        margin: 0px auto;
+        border: 0.0625rem solid transparent;
+        border-radius: 1.25rem;
+        margin: 0rem auto;
     
     }
     .main_body img{
         content: url('../assets/images/illustration-sign-up-tablet.svg');
         min-width: 15rem;
         max-width: 34rem;
-        border: 0px;
+        border: 0rem;
         padding: 1rem;
     }
     .main_content{
@@ -170,10 +169,10 @@ button:active {
     }
 
     p{
-        font-size: calc(var(--font_size_paragraph)+ .4rem);
+        font-size: calc(var(--font_size_paragraph) + .4rem);
     }
     li{
-        font-size: calc(var(--font_size_paragraph)+ .2rem);
+        font-size: calc(var(--font_size_paragraph) + .2rem);
     }
     
 
@@ -187,8 +186,8 @@ button:active {
     .js_success_msg{
         min-width: 20rem;
         max-width: 25rem;
-        border: 0px solid transparent;
-        border-radius: 20px;
+        border: 0rem solid transparent;
+        border-radius: 1.25rem;
         
         padding: 0rem 3rem 2rem;
         margin: auto;
@@ -207,7 +206,7 @@ button:active {
 }
 
 /* For Desktops */
-@media (min-width: 1024px){
+@media (min-width: 64rem){
 
     body{
         padding: 6rem;
@@ -217,11 +216,11 @@ button:active {
         flex-direction: row-reverse;
         justify-content: space-between;
         background-color: var(--white);
-        border: 0px solid transparent;
-        border-radius: 20px;
+        border: 0rem solid transparent;
+        border-radius: 1.25rem;
         min-width: 35rem;
         max-width: 45rem;
-        margin: 0px auto;
+        margin: 0rem auto;
     }
     .main_body img{
         content: url('../assets/images/illustration-sign-up-desktop.svg');
@@ -255,6 +254,6 @@ button:active {
 
 }
 
-.attribution {font-size: 11px; text-align: center; }
+.attribution {font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 

@@ -24,7 +24,7 @@ form.addEventListener('submit', (e) => {
 
     else if (email_pattern.test(document.getElementById('email').value)){
         e.preventDefault();
-        let email = document.getElementById('email').value;
+        const email = document.getElementById('email').value;
         main_body.style.display = "none";
         success_msg.style.display = 'flex';
         confirmed_email.innerText = email;
